@@ -7,8 +7,26 @@
     </head>
     <body>
         <div class="content">
-            <img src="./images/3c.webp" class="mainclick" onclick="incrementValue()"></img>
+            <div class="container">
+            <img id="sayori" src="https://github.com/sodahaunted/brainrot-clicker/blob/main/images/Say1.webp?raw=true" class="mainclick" onclick="incrementValue()"></img>
             <p>dokis: <span class="value">0</span></p>
+            <div class="instruct">
+            <p style="font-size: 14px;">click sayori for more doki!</p>
+            <p style="font-size: 14px;">get doki to upgrade sayori!</p>
+            </div>
+            </div>
+
+            <br>
+
+            <div class="upgrade">
+                <div class="upgradebox">
+                    <div class="upgradetext">
+                        <p>write a poem!</p>
+                        <p>cost: <span class="clicker-cost">10</span> dokis</p>
+                        <button onclick="buyClick()">upgrade!</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
